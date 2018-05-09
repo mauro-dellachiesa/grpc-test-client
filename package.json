@@ -1,0 +1,28 @@
+{
+  "name": "grpc-test-client",
+  "version": "1.0.0",
+  "description": "A GRPC Test client",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauro-dellachiesa/grpc-test-client.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mauro Della Chiesa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-fileupload": "^0.4.0",
+    "grpc": "^1.11.3",
+    "lodash": "^4.17.10",
+    "protocol-buffers-schema": "^3.3.2",
+    "tempfile": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
